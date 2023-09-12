@@ -1,144 +1,53 @@
+# Realtime HealthCare Analytics
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/vikasharma005/Realtime_HealthCare_Analytics/master/assets/dash.png">
-</p>
+![Project Logo](https://raw.githubusercontent.com/vikasharma005/Realtime_HealthCare_Analytics/master/assets/dash.png)
 
+Realtime HealthCare Analytics is a cutting-edge project that leverages real-time data streaming and analytics to provide valuable insights into healthcare data. This project aims to revolutionize the healthcare industry by enabling healthcare professionals to monitor patient data, detect anomalies, and make informed decisions in real-time.
 
-# About
+## Features
 
+- Real-time data streaming using aiokafka and asyncio.
+- Interactive and intuitive dashboard for monitoring patient data.
+- Advanced analytics and visualization of vital signs such as heart rate, body temperature, blood sugar, and blood pressure.
+- Alert system for immediate notifications on critical patient conditions.
+- Seamless integration with Cassandra database for data storage and retrieval.
 
-## Modules Used
-* aiokafka - Asynchronous Kafka Streaming
-* asyncio - Asynchronous Python Threading
-* aiomysl 
-* cassandra-driver - Cassandra Connector/Sink
-* aiocassandra - Asynchronous Cassandra Writing
+## Screenshots
 
+![Dashboard](https://raw.githubusercontent.com/vikasharma005/Realtime_HealthCare_Analytics/master/diagrams/screencaptures/main.gif)
+*Dashboard showcasing real-time patient data and analytics.*
 
-# Demonstration
-The following are screenshots for the app in this repo.
+![Sensor Reading Map](https://raw.githubusercontent.com/vikasharma005/Realtime_HealthCare_Analytics/master/diagrams/screencaptures/map.gif)
+*Sensor reading map for visualizing patient locations.*
 
-Main Dashboard & Callback Graph Navigation:
-![alt text](https://raw.githubusercontent.com/vikasharma005/Realtime_HealthCare_Analytics/master/diagrams/screencaptures/main.gif "Systems Architecture for Project")
+![Blood Pressure Graph](https://raw.githubusercontent.com/vikasharma005/Realtime_HealthCare_Analytics/master/diagrams/screencaptures/bloodpressure.gif)
+*Graph displaying real-time blood pressure readings.*
 
-Alert Table:
-![alt text](https://raw.githubusercontent.com/vikasharma005/Realtime_HealthCare_Analytics/master/diagrams/screencaptures/dash_table.gif "Systems Architecture for Project")
+## Installation
 
-Sensor Reading Map:
-![alt text](https://raw.githubusercontent.com/vikasharma005/Realtime_HealthCare_Analytics/master/diagrams/screencaptures/map.gif "Systems Architecture for Project")
+Follow these steps to set up and run the Realtime HealthCare Analytics project:
 
-Filtering the Map:
-![alt text](https://raw.githubusercontent.com/vikasharma005/Realtime_HealthCare_Analytics/master/diagrams/screencaptures/changes.gif "Systems Architecture for Project")
+1. Clone the repository: `git clone https://github.com/vikasharma005/Realtime_HealthCare_Analytics.git`
+2. Install Docker and Docker-compose.
+3. Install the required dependencies: `pip install -r requirements.txt`
+4. Run the deployment script: `./deploy.sh`
 
-Heart Rate, Body Temperature and Bloog Sugar Graphs:
-![alt text](https://raw.githubusercontent.com/vikasharma005/Realtime_HealthCare_Analytics/master/diagrams/screencaptures/health_stats.gif "Systems Architecture for Project")
+For detailed installation instructions and troubleshooting, please refer to the [Installation Guide](https://github.com/vikasharma005/Realtime_HealthCare_Analytics/wiki/Installation-Guide).
 
+## Usage
 
-Blood Pressure Graphs:
+Once the project is successfully deployed, you can access the Realtime HealthCare Analytics dashboard by navigating to `http://localhost:8000` in your web browser. From the dashboard, you can monitor patient data, view analytics, and receive alerts for critical conditions.
 
-![alt text](https://raw.githubusercontent.com/vikasharma005/Realtime_HealthCare_Analytics/master/diagrams/screencaptures/bloodpressure.gif "Systems Architecture for Project")
+For more information on how to use the app and interact with the data, please refer to the [User Guide](https://github.com/vikasharma005/Realtime_HealthCare_Analytics/wiki/User-Guide).
 
-All Patient Stats:
-![alt text](https://raw.githubusercontent.com/vikasharma005/Realtime_HealthCare_Analytics/master/diagrams/screencaptures/pie_charts.gif "Systems Architecture for Project")
+## Contributing
 
-# Project Diagrams
-To view diagrams and schematics for the project please view this link: https://github.com/vikasharma005/Realtime_HealthCare_Analytics/tree/master/diagrams
+We welcome contributions from the community to enhance the Realtime HealthCare Analytics project. If you would like to contribute, please follow the guidelines outlined in the [Contribution Guide](https://github.com/vikasharma005/Realtime_HealthCare_Analytics/blob/master/CONTRIBUTING.md).
 
+## Issues and Support
 
-# Installation
+If you encounter any issues or have any questions, please feel free to open an issue on the [Issue Tracker](https://github.com/vikasharma005/Realtime_HealthCare_Analytics/issues). Our team will be happy to assist you.
 
-## Clone Repo
+## License
 
-
-## Setup Prerequisities
-
-## Install Docker
-
-## Install Docker-compose
-$ sudo curl -L "https://github.com/docker/compose/releases/download/1.26.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-
-$ sudo chmod +x /usr/local/bin/docker-compose
-
-$ docker–compose -–version
-
-## Install requirements
-
-
-# Running Project
-
-## Deployment/Destroy Clusters + APP
-
-### Deploy Script
-
-$ ./deploy.sh
-
-### Destroy Script
-
-$ ./destory.sh
-
-
-## MANUAL TEAR DOWN STEPS
-
-### start main docker compose
-$ docker network create healthcare_pipeline
-
-$ docker-compose -f docker-compose-kafka.yaml up -d --remove-orphans
-
-$ docker-compose -f docker-compose-kafka.yaml logs -f broker | grep "started"
-
-$ docker-compose -f docker-compose-cassandra.yaml up -d --remove-orphans
-
-$ docker-compose up --build
-
-
-## INTERFACING WITH APP
-### View Stream in Topic
-$ docker-compose -f docker-compose-kafka.yaml exec broker kafka-console-consumer --bootstrap-server localhost:9092 --topic queueing.healthcare --from-beginning
-
-### View Data via Cassandra Shell
-
-#### Connect to Cassandra Shell
-$ docker exec -it cassandra cqlsh localhost 9042 
-
-
-##### Cassandra shell commands
-cqlsh> use healthcare_db;
-
-cqlsh:healthcare_db> select * from healthcare_db.device_patient;
-
- id | content | type
-----+---------+------
-
-(0 rows)
-
-cqlsh:healthcare_db> exit
-
-
-## MANUAL TEAR DOWN STEPS
-
-### Stop the App
-$ docker-compose down --remove-orphans
-
-### Stop the Kafka cluster
-$ docker-compose -f docker-compose-kafka.yaml stop
-
-### Remove Contents of Topics and Kafka cluster
-$ docker-compose -f docker-compose-kafka.yaml down
-
-### Stop Cassandra DB
-$ docker-compose -f docker-compose-cassandra.yaml down
-$ docker rm container cassandra
-
-
-### Remove Docker network
-$ docker network rm healthcare_pipeline
-
-
-# Testing
-
-
-# Outstanding TODO/Issues
-
-#   R e a l t i m e _ H e a l t h C a r e _ A n a l y t i c s 
- 
- 
+This project is licensed under the [MIT License](https://github.com/vikasharma005/Realtime_HealthCare_Analytics/blob/master/LICENSE).
