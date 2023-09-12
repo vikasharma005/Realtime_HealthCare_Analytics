@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/JoseliaReis/Realtime_HealthCare_Analytics/master/assets/dash.png">
+  <img src="https://raw.githubusercontent.com/vikasharma005/Realtime_HealthCare_Analytics/master/assets/dash.png">
 </p>
 
 
@@ -19,30 +19,30 @@
 The following are screenshots for the app in this repo.
 
 Main Dashboard & Callback Graph Navigation:
-![alt text](https://raw.githubusercontent.com/JoseliaReis/Realtime_HealthCare_Analytics/master/diagrams/screencaptures/main.gif "Systems Architecture for Project")
+![alt text](https://raw.githubusercontent.com/vikasharma005/Realtime_HealthCare_Analytics/master/diagrams/screencaptures/main.gif "Systems Architecture for Project")
 
 Alert Table:
-![alt text](https://raw.githubusercontent.com/JoseliaReis/Realtime_HealthCare_Analytics/master/diagrams/screencaptures/dash_table.gif "Systems Architecture for Project")
+![alt text](https://raw.githubusercontent.com/vikasharma005/Realtime_HealthCare_Analytics/master/diagrams/screencaptures/dash_table.gif "Systems Architecture for Project")
 
 Sensor Reading Map:
-![alt text](https://raw.githubusercontent.com/JoseliaReis/Realtime_HealthCare_Analytics/master/diagrams/screencaptures/map.gif "Systems Architecture for Project")
+![alt text](https://raw.githubusercontent.com/vikasharma005/Realtime_HealthCare_Analytics/master/diagrams/screencaptures/map.gif "Systems Architecture for Project")
 
 Filtering the Map:
-![alt text](https://raw.githubusercontent.com/JoseliaReis/Realtime_HealthCare_Analytics/master/diagrams/screencaptures/changes.gif "Systems Architecture for Project")
+![alt text](https://raw.githubusercontent.com/vikasharma005/Realtime_HealthCare_Analytics/master/diagrams/screencaptures/changes.gif "Systems Architecture for Project")
 
 Heart Rate, Body Temperature and Bloog Sugar Graphs:
-![alt text](https://raw.githubusercontent.com/JoseliaReis/Realtime_HealthCare_Analytics/master/diagrams/screencaptures/health_stats.gif "Systems Architecture for Project")
+![alt text](https://raw.githubusercontent.com/vikasharma005/Realtime_HealthCare_Analytics/master/diagrams/screencaptures/health_stats.gif "Systems Architecture for Project")
 
 
 Blood Pressure Graphs:
 
-![alt text](https://raw.githubusercontent.com/JoseliaReis/Realtime_HealthCare_Analytics/master/diagrams/screencaptures/bloodpressure.gif "Systems Architecture for Project")
+![alt text](https://raw.githubusercontent.com/vikasharma005/Realtime_HealthCare_Analytics/master/diagrams/screencaptures/bloodpressure.gif "Systems Architecture for Project")
 
 All Patient Stats:
-![alt text](https://raw.githubusercontent.com/JoseliaReis/Realtime_HealthCare_Analytics/master/diagrams/screencaptures/pie_charts.gif "Systems Architecture for Project")
+![alt text](https://raw.githubusercontent.com/vikasharma005/Realtime_HealthCare_Analytics/master/diagrams/screencaptures/pie_charts.gif "Systems Architecture for Project")
 
 # Project Diagrams
-To view diagrams and schematics for the project please view this link: https://github.com/JoseliaReis/Realtime_HealthCare_Analytics/tree/master/diagrams
+To view diagrams and schematics for the project please view this link: https://github.com/vikasharma005/Realtime_HealthCare_Analytics/tree/master/diagrams
 
 
 # Installation
