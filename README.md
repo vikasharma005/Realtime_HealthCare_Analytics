@@ -34,12 +34,6 @@ Follow these steps to set up and run the Realtime HealthCare Analytics project:
 
 For detailed installation instructions and troubleshooting, please refer to the [Installation Guide](https://github.com/vikasharma005/Realtime_HealthCare_Analytics/wiki/Installation-Guide).
 
-## Usage
-
-Once the project is successfully deployed, you can access the Realtime HealthCare Analytics dashboard by navigating to `http://localhost:8000` in your web browser. From the dashboard, you can monitor patient data, view analytics, and receive alerts for critical conditions.
-
-For more information on how to use the app and interact with the data, please refer to the [User Guide](https://github.com/vikasharma005/Realtime_HealthCare_Analytics/wiki/User-Guide).
-
 ## Author
 
 <div id="header" align="center">
