@@ -1,0 +1,38 @@
+version: '2.2'
+services:
+  cassandra:
+    image: cassandra:latest
+    container_name: cassandra
+    volumes:
+      - ./out/cassandra_data:/var/lib/cassandra
+    ports:
+      - 9042:9042
+    environment:
+      - CASSANDRA_START_RPC=true
+      - CASSANDRA_CLUSTER_NAME=SensordataCluster
+      - CASSANDRA_ENDPOINT_SNITCH=GossipingPropertyFileSnitch
+      - CASSANDRA_DC=datacenter
+      - RPC_ADDRESS=0.0.0.0
+      - "MAX_HEAP_SIZE=256M"
+      - "HEAP_NEWSIZE=128M"
+    restart: always
+    healthcheck:
+      test: ["CMD", "cqlsh", "-u cassandra", "-p cassandra" ,"-e describe keyspaces"]
+      interval: 15s
+      timeout: 10s
+      retries: 10
+
+  cassandra-load-keyspace:
+    image: cassandra:latest
+    container_name: cassandra-keyspace
+    depends_on:
+      cassandra:
+        condition: service_healthy
+    volumes:
+      - ../cassandra/cassandra_boostrap.cql:/schema.cql
+    command: /bin/bash -c "echo loading cassandra keyspace && cqlsh cassandra -f schema.cql"
+
+networks:
+  default:
+    external:
+      name: healthcare_pipeline

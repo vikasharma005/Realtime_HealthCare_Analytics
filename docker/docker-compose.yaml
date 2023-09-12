@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+
+  producer:
+    build: ../kafka/
+    environment:
+      KAFKA_BROKER_URL: broker:9092
+      SENSOR_TOPIC: queueing.healthcare
+      TRANSACTIONS_PER_SECOND: 10000
+
+  consumer:
+    build: ../kafka/
+    environment:
+      KAFKA_BROKER_URL: broker:9092
+      SENSOR_TOPIC: queueing.healthcare
+
+networks:
+  default:
+    external:
+      name: healthcare_pipeline

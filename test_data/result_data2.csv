@@ -1,0 +1,114 @@
+timestamp,name,phone,alert,latitude,longitude
+2021-08-05 05:32:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPOTHERMIA DETECTED: Patient has body temperature of 34.35 celcius,53.241571,-6.390848
+2021-08-04 23:14:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 376 mg/dl,53.209606,-6.326448
+2021-08-04 23:45:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 302 mg/dl,53.38921,-6.215824
+2021-08-05 19:39:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 311 mg/dl,53.338062,-6.389393
+2021-08-05 02:48:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPOTHERMIA DETECTED: Patient has body temperature of 34.72 celcius,53.322089,-6.205888
+2021-08-05 18:10:00,Jennifer Anderson,+353-88-3658730,WARNING! FEVER DETECTED: Patient aged 32 with condition diabetes has body temperature of 41.01 celcius,53.384717,-6.347574
+2021-08-05 05:02:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 400 mg/dl,53.243811,-6.355472
+2021-08-04 22:23:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 301 mg/dl,53.323946,-6.31751
+2021-08-05 07:52:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 333 mg/dl,53.241036,-6.204414
+2021-08-05 19:30:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPOTHERMIA DETECTED: Patient has body temperature of 34.4 celcius,53.201744,-6.327531
+2021-08-05 17:38:00,Alexandra Frank,+353-84-5273986,WARNING! FEVER DETECTED: Patient aged 28 with condition diabetes has body temperature of 41.42 celcius,53.307295,-6.239864
+2021-08-05 11:11:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPOTHERMIA DETECTED: Patient has body temperature of 33.37 celcius,53.352505,-6.209956
+2021-08-05 07:41:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 362 mg/dl,53.338163,-6.340887
+2021-08-05 10:48:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 386 mg/dl,53.23972,-6.423477
+2021-08-05 03:53:00,Alexandra Frank,+353-84-5273986,WARNING! FEVER DETECTED: Patient aged 28 with condition diabetes has body temperature of 40.02 celcius,53.380349,-6.275825
+2021-08-05 04:57:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPOTHERMIA DETECTED: Patient has body temperature of 33.71 celcius,53.367719,-6.276148
+2021-08-05 03:23:00,Alexandra Frank,+353-84-5273986,WARNING! FEVER DETECTED: Patient aged 28 with condition diabetes has body temperature of 40.7 celcius,53.386597,-6.253885
+2021-08-05 01:54:00,Jennifer Anderson,+353-88-3658730,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 394 mg/dl,53.283024,-6.23673
+2021-08-05 08:01:00,Jennifer Anderson,+353-88-3658730,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 369 mg/dl,53.286767,-6.218977
+2021-08-05 15:22:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 317 mg/dl,53.387313,-6.370784
+2021-08-04 23:20:00,Jennifer Anderson,+353-88-3658730,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 331 mg/dl,53.33709,-6.242538
+2021-08-05 05:09:00,Jennifer Anderson,+353-88-3658730,EMERGENCY! HYPOTHERMIA DETECTED: Patient has body temperature of 33.15 celcius,53.343851,-6.389338
+2021-08-05 18:42:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 362 mg/dl,53.236461,-6.338361
+2021-08-05 07:37:00,Alexandra Frank,+353-84-5273986,WARNING! FEVER DETECTED: Patient aged 28 with condition diabetes has body temperature of 40.49 celcius,53.353968,-6.383422
+2021-08-05 19:41:00,Jennifer Anderson,+353-88-3658730,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 319 mg/dl,53.351794,-6.228873
+2021-08-05 00:37:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 330 mg/dl,53.258475,-6.385721
+2021-08-05 07:30:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 332 mg/dl,53.368683,-6.222305
+2021-08-05 15:45:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPOTHERMIA DETECTED: Patient has body temperature of 33.91 celcius,53.244694,-6.22366
+2021-08-05 01:46:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 367 mg/dl,53.234523,-6.283379
+2021-08-05 06:16:00,Jennifer Anderson,+353-88-3658730,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 354 mg/dl,53.256462,-6.24335
+2021-08-05 03:24:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 320 mg/dl,53.23749,-6.246047
+2021-08-05 05:54:00,Alexandra Frank,+353-84-5273986,WARNING! FEVER DETECTED: Patient aged 28 with condition diabetes has body temperature of 41.65 celcius,53.359971,-6.364787
+2021-08-05 15:54:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 307 mg/dl,53.240803,-6.305181
+2021-08-05 04:54:00,Jennifer Anderson,+353-88-3658730,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 363 mg/dl,53.314908,-6.25675
+2021-08-05 15:31:00,Jennifer Anderson,+353-88-3658730,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 385 mg/dl,53.207286,-6.239513
+2021-08-05 16:05:00,Jennifer Anderson,+353-88-3658730,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 303 mg/dl,53.352741,-6.208421
+2021-08-05 19:59:00,Jennifer Anderson,+353-88-3658730,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 362 mg/dl,53.383428,-6.204672
+2021-08-05 02:32:00,Jennifer Anderson,+353-88-3658730,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 374 mg/dl,53.281025,-6.236657
+2021-08-05 21:53:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 364 mg/dl,53.291727,-6.379341
+2021-08-05 06:27:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPOTHERMIA DETECTED: Patient has body temperature of 34.72 celcius,53.399824,-6.33749
+2021-08-05 18:55:00,Alexandra Frank,+353-84-5273986,WARNING! FEVER DETECTED: Patient aged 28 with condition diabetes has body temperature of 41.88 celcius,53.246418,-6.336281
+2021-08-04 22:59:00,Jennifer Anderson,+353-88-3658730,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 356 mg/dl,53.337741,-6.295841
+2021-08-05 01:43:00,Jennifer Anderson,+353-88-3658730,EMERGENCY! HYPOTHERMIA DETECTED: Patient has body temperature of 33.68 celcius,53.295165,-6.237138
+2021-08-05 02:41:00,Jennifer Anderson,+353-88-3658730,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 392 mg/dl,53.227278,-6.357959
+2021-08-05 10:44:00,Alexandra Frank,+353-84-5273986,WARNING! FEVER DETECTED: Patient aged 28 with condition diabetes has body temperature of 41.07 celcius,53.346691,-6.335869
+2021-08-05 01:56:00,Alexandra Frank,+353-84-5273986,WARNING! FEVER DETECTED: Patient aged 28 with condition diabetes has body temperature of 41.39 celcius,53.392961,-6.346722
+2021-08-05 15:57:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPOTHERMIA DETECTED: Patient has body temperature of 34.45 celcius,53.213737,-6.270306
+2021-08-05 04:11:00,Jennifer Anderson,+353-88-3658730,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 369 mg/dl,53.338375,-6.400631
+2021-08-05 16:31:00,Jennifer Anderson,+353-88-3658730,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 324 mg/dl,53.220586,-6.296105
+2021-08-05 05:19:00,Jennifer Anderson,+353-88-3658730,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 380 mg/dl,53.307296,-6.372224
+2021-08-05 10:05:00,Jennifer Anderson,+353-88-3658730,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 400 mg/dl,53.320412,-6.29778
+2021-08-05 15:08:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPOTHERMIA DETECTED: Patient has body temperature of 33.85 celcius,53.229209,-6.407545
+2021-08-05 04:47:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 381 mg/dl,53.320672,-6.400674
+2021-08-05 15:30:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 334 mg/dl,53.22536,-6.359497
+2021-08-05 18:51:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 346 mg/dl,53.264052,-6.353397
+2021-08-05 02:10:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 325 mg/dl,53.240641,-6.318785
+2021-08-04 23:11:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPOTHERMIA DETECTED: Patient has body temperature of 34.12 celcius,53.318563,-6.346361
+2021-08-05 18:32:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 370 mg/dl,53.258883,-6.342501
+2021-08-05 20:57:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 361 mg/dl,53.288994,-6.316425
+2021-08-05 16:16:00,Jennifer Anderson,+353-88-3658730,EMERGENCY! HYPOTHERMIA DETECTED: Patient has body temperature of 33.26 celcius,53.234444,-6.238015
+2021-08-05 17:10:00,Jennifer Anderson,+353-88-3658730,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 349 mg/dl,53.203727,-6.29914
+2021-08-05 15:23:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 345 mg/dl,53.271215,-6.235151
+2021-08-05 04:58:00,Alexandra Frank,+353-84-5273986,WARNING! FEVER DETECTED: Patient aged 28 with condition diabetes has body temperature of 40.3 celcius,53.325184,-6.398843
+2021-08-05 18:12:00,Alexandra Frank,+353-84-5273986,WARNING! FEVER DETECTED: Patient aged 28 with condition diabetes has body temperature of 40.27 celcius,53.353082,-6.408317
+2021-08-05 05:49:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 380 mg/dl,53.391567,-6.371759
+2021-08-05 08:44:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPOTHERMIA DETECTED: Patient has body temperature of 33.82 celcius,53.217519,-6.20253
+2021-08-05 00:05:00,Jennifer Anderson,+353-88-3658730,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 315 mg/dl,53.329823,-6.217852
+2021-08-05 05:16:00,Jennifer Anderson,+353-88-3658730,WARNING! FEVER DETECTED: Patient aged 32 with condition diabetes has body temperature of 40.07 celcius,53.365796,-6.400914
+2021-08-05 11:33:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 351 mg/dl,53.367556,-6.216597
+2021-08-05 19:27:00,Jennifer Anderson,+353-88-3658730,EMERGENCY! HYPOTHERMIA DETECTED: Patient has body temperature of 33.98 celcius,53.348402,-6.360683
+2021-08-05 03:34:00,Jennifer Anderson,+353-88-3658730,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 309 mg/dl,53.31001,-6.268302
+2021-08-05 13:15:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 325 mg/dl,53.246141,-6.225663
+2021-08-05 16:06:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 315 mg/dl,53.372793,-6.244965
+2021-08-05 02:54:00,Jennifer Anderson,+353-88-3658730,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 347 mg/dl,53.348086,-6.269627
+2021-08-05 02:13:00,Jennifer Anderson,+353-88-3658730,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 397 mg/dl,53.377341,-6.390439
+2021-08-05 03:43:00,Jennifer Anderson,+353-88-3658730,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 376 mg/dl,53.309778,-6.433806
+2021-08-05 08:54:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 352 mg/dl,53.213027,-6.232853
+2021-08-05 15:13:00,Jennifer Anderson,+353-88-3658730,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 308 mg/dl,53.206254,-6.324701
+2021-08-05 09:44:00,Jennifer Anderson,+353-88-3658730,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 369 mg/dl,53.375829,-6.222319
+2021-08-05 22:04:00,Jennifer Anderson,+353-88-3658730,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 311 mg/dl,53.327395,-6.433577
+2021-08-05 10:21:00,Jennifer Anderson,+353-88-3658730,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 386 mg/dl,53.27824,-6.344325
+2021-08-05 15:15:00,Alexandra Frank,+353-84-5273986,WARNING! FEVER DETECTED: Patient aged 28 with condition diabetes has body temperature of 40.16 celcius,53.216546,-6.385044
+2021-08-05 00:47:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 329 mg/dl,53.351608,-6.310291
+2021-08-05 12:18:00,Jennifer Anderson,+353-88-3658730,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 367 mg/dl,53.373766,-6.202266
+2021-08-05 18:29:00,Alexandra Frank,+353-84-5273986,WARNING! FEVER DETECTED: Patient aged 28 with condition diabetes has body temperature of 41.83 celcius,53.240652,-6.298005
+2021-08-05 12:14:00,Jennifer Anderson,+353-88-3658730,WARNING! FEVER DETECTED: Patient aged 32 with condition diabetes has body temperature of 40.32 celcius,53.217867,-6.370939
+2021-08-05 06:35:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 361 mg/dl,53.399463,-6.200139
+2021-08-05 02:05:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 304 mg/dl,53.239268,-6.328011
+2021-08-05 15:40:00,Jennifer Anderson,+353-88-3658730,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 330 mg/dl,53.249555,-6.430656
+2021-08-04 23:26:00,Jennifer Anderson,+353-88-3658730,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 353 mg/dl,53.328685,-6.260857
+2021-08-05 05:55:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 393 mg/dl,53.353551,-6.392832
+2021-08-05 01:22:00,Jennifer Anderson,+353-88-3658730,WARNING! FEVER DETECTED: Patient aged 32 with condition diabetes has body temperature of 41.82 celcius,53.361531,-6.321073
+2021-08-05 18:39:00,Jennifer Anderson,+353-88-3658730,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 384 mg/dl,53.387115,-6.284646
+2021-08-05 03:28:00,Jennifer Anderson,+353-88-3658730,WARNING! FEVER DETECTED: Patient aged 32 with condition diabetes has body temperature of 39.26 celcius,53.324951,-6.210619
+2021-08-05 00:18:00,Jennifer Anderson,+353-88-3658730,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 320 mg/dl,53.339752,-6.219758
+2021-08-05 10:51:00,Alexandra Frank,+353-84-5273986,WARNING! FEVER DETECTED: Patient aged 28 with condition diabetes has body temperature of 39.75 celcius,53.251061,-6.246306
+2021-08-05 05:29:00,Jennifer Anderson,+353-88-3658730,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 376 mg/dl,53.375984,-6.419836
+2021-08-04 23:57:00,Jennifer Anderson,+353-88-3658730,EMERGENCY! HYPOTHERMIA DETECTED: Patient has body temperature of 33.11 celcius,53.352021,-6.322503
+2021-08-05 10:38:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 381 mg/dl,53.304634,-6.402221
+2021-08-04 23:40:00,Jennifer Anderson,+353-88-3658730,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 302 mg/dl,53.217352,-6.374915
+2021-08-05 10:09:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 359 mg/dl,53.327542,-6.351613
+2021-08-05 02:50:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 322 mg/dl,53.237361,-6.39395
+2021-08-05 18:53:00,Jennifer Anderson,+353-88-3658730,EMERGENCY! HYPOTHERMIA DETECTED: Patient has body temperature of 33.03 celcius,53.38403,-6.389977
+2021-08-05 02:57:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 378 mg/dl,53.278567,-6.422046
+2021-08-05 07:10:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 311 mg/dl,53.280595,-6.416921
+2021-08-05 05:47:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPOTHERMIA DETECTED: Patient has body temperature of 33.03 celcius,53.289787,-6.206583
+2021-08-05 05:24:00,Jennifer Anderson,+353-88-3658730,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 398 mg/dl,53.394667,-6.277449
+2021-08-05 03:36:00,Jennifer Anderson,+353-88-3658730,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 378 mg/dl,53.289872,-6.269693
+2021-08-05 07:46:00,Jennifer Anderson,+353-88-3658730,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 351 mg/dl,53.222017,-6.207699
+2021-08-05 14:25:00,Jennifer Anderson,+353-88-3658730,WARNING! FEVER DETECTED: Patient aged 32 with condition diabetes has body temperature of 41.77 celcius,53.343314,-6.233944
+2021-08-05 14:11:00,Jennifer Anderson,+353-88-3658730,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 368 mg/dl,53.38751,-6.377242
+2021-08-05 14:39:00,Alexandra Frank,+353-84-5273986,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 379 mg/dl,53.298027,-6.245773
+2021-08-05 17:02:00,Jennifer Anderson,+353-88-3658730,EMERGENCY! HYPERGLYCEMIA DETECTED: Patient with diabetes has blood sugar level of 332 mg/dl,53.239171,-6.341659

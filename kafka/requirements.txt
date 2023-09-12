@@ -1,0 +1,4 @@
+aiokafka
+asyncio
+cassandra-driver
+aiocassandra
