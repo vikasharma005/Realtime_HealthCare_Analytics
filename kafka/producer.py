@@ -30,8 +30,12 @@ async def produce_payload():
     patient_count = generator.patient_count
     timestamps = generator.create_time_of_measurement()
 
-    producer = AIOKafkaProducer()
-    await producer.start()
+    try:
+        producer = AIOKafkaProducer()
+        await producer.start()
+    except Exception as e:
+        print(f"Error while creating producer: {e}")
+        return # Exit the function if producer creation fails
 
     batch = producer.create_batch()
 
@@ -50,23 +54,53 @@ async def produce_payload():
             # serialize (compress) the records to send quickly
             serialized = serializer(records)
 
-            metadata = batch.append(key=None, value=serialized, timestamp=None)
+            try:
+                metadata = batch.append(key=None, value=serialized, timestamp=None)
+            except Exception as e:
+                print(f"Error while appending to batch: {e}")
+                continue # Skip this record and continue with the next one
+
             if metadata is None:
-                partitions = await producer.partitions_for(topic)
-                partition = random.choice(tuple(partitions))
-                await producer.send_batch(batch, topic, partition=partition)
-                print("%d messages sent to partition %d"
-                      % (batch.record_count(), partition))
+                try:
+                    partitions = await producer.partitions_for(topic)
+                    partition = random.choice(tuple(partitions))
+                except Exception as e:
+                    print(f"Error while getting partitions: {e}")
+                    continue # Skip this batch and continue with the next one
+
+                try:
+                    await producer.send_batch(batch, topic, partition=partition)
+                    print("%d messages sent to partition %d"
+                          % (batch.record_count(), partition))
+                except Exception as e:
+                    print(f"Error while sending batch: {e}")
+                    continue # Skip this batch and continue with the next one
+
                 batch = producer.create_batch()
 
-    partitions = await producer.partitions_for(topic)
-    partition = random.choice(tuple(partitions))
-    await producer.send_batch(batch, topic, partition=partition)
-    print("%d messages sent to partition %d"
-          % (batch.record_count(), partition))
-    await producer.stop()
+    try:
+        partitions = await producer.partitions_for(topic)
+        partition = random.choice(tuple(partitions))
+    except Exception as e:
+        print(f"Error while getting partitions: {e}")
+        return # Exit the function if getting partitions fails
+
+    try:
+        await producer.send_batch(batch, topic, partition=partition)
+        print("%d messages sent to partition %d"
+              % (batch.record_count(), partition))
+    except Exception as e:
+        print(f"Error while sending batch: {e}")
+        return # Exit the function if sending batch fails
+
+    try:
+        await producer.stop()
+    except Exception as e:
+        print(f"Error while stopping producer: {e}")
+        return # Exit the function if stopping producer fails
 
 if __name__ == '__main__':
-    asyncio.run(produce_payload())
-
-
+    try:
+        asyncio.run(produce_payload())
+    except Exception as e:
+        print(f"Runtime error: {e}")
